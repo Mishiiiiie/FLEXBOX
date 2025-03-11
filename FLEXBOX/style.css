@@ -1,0 +1,32 @@
+.container {
+    border: solid 5px red;
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    align-items: end;
+    /* gap: 10em; */
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+}
+
+.item-1 {
+    order: 1;
+}
+.item-2 {
+    /* flex-grow: 1; */
+        flex-shrink: 1;
+        /* para responive */
+        /* flex-basis: 0; */
+}
+.box {
+    border: solid 2px blue;
+    gap: 2px;
+    width: 150px;
+    height: 150px;
+    background-color:  lightblue;
+    border-radius: 5px;
+}
